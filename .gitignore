@@ -1,0 +1,14 @@
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore Lambda deployment package files (zip)
+*.zip
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore .terraform directory
+.terraform/
+
